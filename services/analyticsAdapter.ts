@@ -1,10 +1,9 @@
-// Mock analytics adapter for tracking user events
+// Mock analytics
 export const analyticsAdapter = {
   trackEvent(eventName: string, properties?: Record<string, any>) {
     if (__DEV__) {
       console.log(`Analytics Event: ${eventName}`, properties);
     }
-    // In a real app, this would send data to analytics service
   },
 
   trackScreenView(screenName: string, properties?: Record<string, any>) {
