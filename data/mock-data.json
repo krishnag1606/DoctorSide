@@ -1,0 +1,88 @@
+{
+  "schedule": [
+    {
+      "id": "apt_001",
+      "time": "2025-01-13T09:30:00+05:30",
+      "status": "waiting",
+      "patient": {
+        "id": "pat_101",
+        "name": "Asha Sharma",
+        "avatarUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?w=150&h=150&fit=crop&crop=face",
+        "vitals": { "bp": "120/80", "temp": "98.6°F", "pulse": "72 bpm", "weight": "65 kg" },
+        "allergies": ["Penicillin"],
+        "medications": ["Metformin", "Lisinopril"],
+        "lastVisitNotes": "Blood pressure is well-controlled. Continue current medication. Patient reports feeling well overall."
+      }
+    },
+    {
+      "id": "apt_002",
+      "time": "2025-01-13T10:00:00+05:30",
+      "status": "checked-in",
+      "patient": {
+        "id": "pat_102",
+        "name": "Rohan Verma",
+        "avatarUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?w=150&h=150&fit=crop&crop=face",
+        "vitals": { "bp": "130/85", "temp": "99.1°F", "pulse": "78 bpm", "weight": "78 kg" },
+        "allergies": ["None"],
+        "medications": ["Atorvastatin"],
+        "lastVisitNotes": "Patient reports feeling well. Cholesterol levels improved. Check back in 3 months."
+      }
+    },
+    {
+      "id": "apt_003",
+      "time": "2025-01-13T10:30:00+05:30",
+      "status": "completed",
+      "patient": {
+        "id": "pat_103",
+        "name": "Priya Patel",
+        "avatarUrl": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?w=150&h=150&fit=crop&crop=face",
+        "vitals": { "bp": "110/70", "temp": "98.2°F", "pulse": "68 bpm", "weight": "58 kg" },
+        "allergies": ["Sulfa drugs"],
+        "medications": ["Vitamin D", "Iron supplements"],
+        "lastVisitNotes": "Annual check-up completed. All vitals normal. Continue current supplements."
+      }
+    },
+    {
+      "id": "apt_004",
+      "time": "2025-01-13T11:00:00+05:30",
+      "status": "waiting",
+      "patient": {
+        "id": "pat_104",
+        "name": "Arjun Singh",
+        "avatarUrl": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?w=150&h=150&fit=crop&crop=face",
+        "vitals": { "bp": "140/90", "temp": "98.8°F", "pulse": "82 bpm", "weight": "85 kg" },
+        "allergies": ["Aspirin"],
+        "medications": ["Amlodipine", "Metoprolol"],
+        "lastVisitNotes": "Blood pressure slightly elevated. Medication adjustment needed. Follow up in 2 weeks."
+      }
+    },
+    {
+      "id": "apt_005",
+      "time": "2025-01-13T14:00:00+05:30",
+      "status": "waiting",
+      "patient": {
+        "id": "pat_105",
+        "name": "Meera Gupta",
+        "avatarUrl": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?w=150&h=150&fit=crop&crop=face",
+        "vitals": { "bp": "125/75", "temp": "98.4°F", "pulse": "70 bpm", "weight": "62 kg" },
+        "allergies": ["Latex"],
+        "medications": ["Levothyroxine"],
+        "lastVisitNotes": "Thyroid levels stable. Continue current dosage. Next check in 6 months."
+      }
+    },
+    {
+      "id": "apt_006",
+      "time": "2025-01-13T14:30:00+05:30",
+      "status": "completed",
+      "patient": {
+        "id": "pat_106",
+        "name": "Rajesh Kumar",
+        "avatarUrl": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?w=150&h=150&fit=crop&crop=face",
+        "vitals": { "bp": "135/88", "temp": "99.0°F", "pulse": "75 bpm", "weight": "90 kg" },
+        "allergies": ["Shellfish"],
+        "medications": ["Diabetes medication", "Blood pressure medication"],
+        "lastVisitNotes": "Diabetes management going well. HbA1c levels improved. Continue current treatment plan."
+      }
+    }
+  ]
+}
