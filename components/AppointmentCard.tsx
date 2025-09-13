@@ -58,7 +58,7 @@ export function AppointmentCard({ appointment }: AppointmentCardProps) {
     
     Alert.alert(
       'Video Call',
-      `Initiating video call with ${appointment.patient.name}.\n\nThis is a placeholder - video calling feature to be implemented.`,
+      `Initiating video call with ${appointment.patient.name}.\n\nVideo calling feature to be implemented.`,
       [
         { text: 'Cancel', style: 'cancel' },
         { text: 'Start Call', onPress: () => console.log('Video call started') }
